@@ -1,0 +1,10 @@
+site_name: PyHo 2025
+site_url: https://github.com/hopythonusergroup/2025.pyho.conference.git
+theme:
+  name: material
+  custom_dir: docs/overrides
+  palette:
+    scheme: default
+    primary: green
+extra_css:
+  - stylesheets/extra.css
