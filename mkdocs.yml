@@ -1,5 +1,8 @@
 site_name: PyHo 2025
+site_author: Python User Group Ho
 site_url: https://github.com/hopythonusergroup/2025.pyho.conference.git
+repo_url: https://github.com/hopythonusergroup/2025.pyho.conference.git
+repo_name: hopythonusergroup/2025.pyho.conference
 theme:
   name: material
   custom_dir: docs/overrides
