@@ -2,12 +2,13 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    text-align: center;
+    /* text-align: center; */
     background-color: white;
     color: black;
 }
 
 .hero {
+    text-align: center;
     margin-top: -60px;
     background-color: #2E7D32; /* Not too bright green */
     color: white;
@@ -38,8 +39,50 @@ h2 {
     color: rgb(249, 249, 157);
 }
 
+/* Buttons */
+.hero-buttons {
+    margin-top: 20px;
+}
+
+.hero-buttons a {
+    display: inline-block;
+    margin: 10px;
+    padding: 15px 25px;
+    font-size: 1.5em;
+    color: white;
+    background-color: #145214; /* Darker green */
+    text-decoration: none;
+    border-radius: 8px;
+    transition: background-color 0.3s ease;
+}
+
+.hero-buttons a:hover {
+    background-color: #0f400e;
+}
+
+/* Important Dates Section */
+.important-dates {
+    padding: 5px 10px;
+    background-color: #f4f4f4;
+}
+
+.important-dates h2 {
+    font-size: 2em;
+    color: #2E7D32;
+}
+
+.important-dates ul {
+    list-style: none;
+    padding: 0;
+}
+
+.important-dates li {
+    font-size: 1.3em;
+    padding: 8px 0;
+}
+
 .about, .sponsor, .code-of-conduct, .subscribe, .contact, .socials {
-    padding: 10px 5px;
+    /* padding: 10px 5px; */
 }
 
 .about p {
@@ -54,8 +97,30 @@ h2 {
     font-size: 1.8em;
 }
 
+/* Code of Conduct & Health & Safety */
+.code-of-conduct, .health-policy {
+    padding: 30px 20px;
+    background-color: #e8f5e9; /* Light green */
+}
+
+.code-of-conduct h2, .health-policy h2 {
+    font-size: 1.8em;
+    color: #2E7D32;
+}
+
+.code-of-conduct a, .health-policy a {
+    font-size: 1.5em;
+    color: #145214;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.code-of-conduct a:hover, .health-policy a:hover {
+    text-decoration: underline;
+}
+
 .socials {
-    padding: 40px 20px;
+    /* padding: 40px 20px; */
 }
 
 .socials a {
@@ -122,4 +187,5 @@ footer {
     color: white;
     padding: 20px;
     margin-top: 20px;
+    text-align: center;
 }
