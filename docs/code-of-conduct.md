@@ -1,7 +1,6 @@
 ---
-template: code-of-conduct.html
+template: coc.html
 hide:
   - navigation
   - toc
-  - path
 ---

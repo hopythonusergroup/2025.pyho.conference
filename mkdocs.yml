@@ -3,11 +3,17 @@ site_author: Python User Group Ho
 site_url: https://github.com/hopythonusergroup/2025.pyho.conference.git
 repo_url: https://github.com/hopythonusergroup/2025.pyho.conference.git
 repo_name: hopythonusergroup/2025.pyho.conference
+nav:
+  - PyHo 2025: index.md
 theme:
+  logo: static/assets/pyho-2025-logo.jpeg
+  favicon: static/images/favicon.ico
   name: material
   custom_dir: docs/overrides
   palette:
     scheme: default
     primary: green
+  features:
+    - navigation.tabs
 extra_css:
   - stylesheets/extra.css
