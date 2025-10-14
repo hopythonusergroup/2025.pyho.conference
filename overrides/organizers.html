@@ -1,0 +1,119 @@
+{% extends "main.html" %}
+
+{% block header %}
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+<title>Organizers | PyHo 2025 Community Conference</title>
+<style>
+header h1 {
+    margin: 0;
+    /* font-size: 2.2rem; */
+}
+
+.container {
+    max-width: 850px;
+    /* margin: 2rem auto;
+    padding: 0 1.5rem; */
+}
+
+.intro {
+    background: #fff;
+    padding: 1.5rem 2rem;
+    border-radius: 10px;
+    box-shadow: 0 3px 10px rgba(0,0,0,0.05);
+}
+
+.intro h2 {
+    color: #333;
+    margin-top: 0;
+    border-left: 5px solid #ffd343;
+    padding-left: 0.5rem;
+}
+
+.intro p {
+    margin: 1rem 0;
+}
+
+.organizers-list {
+    margin-top: 2rem;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+    gap: 1.5rem;
+}
+
+.organizer-card {
+    background: #fff;
+    padding: 1rem;
+    text-align: center;
+    border-radius: 8px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.05);
+    transition: transform 0.2s;
+}
+
+.organizer-card:hover {
+    transform: translateY(-4px);
+}
+
+.organizer-card img {
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    object-fit: cover;
+    background: #eee;
+    margin-bottom: 0.8rem;
+}
+
+.organizer-card h3 {
+    margin: 0.4rem 0 0.2rem;
+    font-size: 1.05rem;
+    color: #333;
+}
+
+.organizer-card p {
+    margin: 0;
+    color: #666;
+    font-size: 0.9rem;
+}
+
+.thank-you {
+    background: #f9f9f9;
+    border-left: 5px solid #ffd343;
+    margin-top: 3rem;
+    padding: 1.5rem;
+    border-radius: 8px;
+    font-style: italic;
+    text-align: center;
+}
+</style>
+{% endblock header %}
+
+{% block content %}
+<header>
+<h1>Organizers</h1>
+</header>
+
+<div class="container">
+    <section class="intro">
+        <!-- <h2>Meet the Organizing Committee</h2> -->
+        <p>
+            PyHo 2025 is organized by passionate Python community members and contributors who are dedicated to creating an inclusive, exciting, and community-driven conference experience for everyone.
+        </p>
+
+        <p>Our organizing team brings together developers, volunteers, and enthusiasts from across the region, working hand in hand to make PyHo a success for the Python User Group Ho community and beyond.</p>
+    </section>
+
+    <ul class="organizers-list">
+        <li>Jessica Adzoyi</li>
+        <li>Winnifred Amuzu</li>
+        <li>Alordo Sitsofe</li>
+        <li>Anani Caroline Edem</li>
+        <li>Agbeko Triumph Elikplim</li>
+        <li>Makae Theresa Akosua</li>
+        <li>Joycelyn Ganaku</li>
+        <li>Sheena Dzamefe</li>
+    </ul>
+
+    <div class="thank-you">
+        <p>💛 Thank you to all our volunteers who made PyHo 2025 a success!</p>
+    </div>
+</div>
+{% endblock content %}

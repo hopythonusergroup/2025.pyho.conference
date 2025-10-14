@@ -2,10 +2,50 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
          <loc>https://github.com/hopythonusergroup/2025.pyho.conference.git/</loc>
-         <lastmod>2025-05-01</lastmod>
+         <lastmod>2025-10-14</lastmod>
     </url>
     <url>
-         <loc>https://github.com/hopythonusergroup/2025.pyho.conference.git/code-of-conduct/</loc>
-         <lastmod>2025-05-01</lastmod>
+         <loc>https://github.com/hopythonusergroup/2025.pyho.conference.git/schedule/</loc>
+         <lastmod>2025-10-14</lastmod>
+    </url>
+    <url>
+         <loc>https://github.com/hopythonusergroup/2025.pyho.conference.git/speakers/</loc>
+         <lastmod>2025-10-14</lastmod>
+    </url>
+    <url>
+         <loc>https://github.com/hopythonusergroup/2025.pyho.conference.git/sponsors/</loc>
+         <lastmod>2025-10-14</lastmod>
+    </url>
+    <url>
+         <loc>https://github.com/hopythonusergroup/2025.pyho.conference.git/about/about/</loc>
+         <lastmod>2025-10-14</lastmod>
+    </url>
+    <url>
+         <loc>https://github.com/hopythonusergroup/2025.pyho.conference.git/about/coc/</loc>
+         <lastmod>2025-10-14</lastmod>
+    </url>
+    <url>
+         <loc>https://github.com/hopythonusergroup/2025.pyho.conference.git/about/diversity/</loc>
+         <lastmod>2025-10-14</lastmod>
+    </url>
+    <url>
+         <loc>https://github.com/hopythonusergroup/2025.pyho.conference.git/about/grants/</loc>
+         <lastmod>2025-10-14</lastmod>
+    </url>
+    <url>
+         <loc>https://github.com/hopythonusergroup/2025.pyho.conference.git/about/health/</loc>
+         <lastmod>2025-10-14</lastmod>
+    </url>
+    <url>
+         <loc>https://github.com/hopythonusergroup/2025.pyho.conference.git/about/organizers/</loc>
+         <lastmod>2025-10-14</lastmod>
+    </url>
+    <url>
+         <loc>https://github.com/hopythonusergroup/2025.pyho.conference.git/about/volunteer/</loc>
+         <lastmod>2025-10-14</lastmod>
+    </url>
+    <url>
+         <loc>https://github.com/hopythonusergroup/2025.pyho.conference.git/venue/ho/</loc>
+         <lastmod>2025-10-14</lastmod>
     </url>
 </urlset>

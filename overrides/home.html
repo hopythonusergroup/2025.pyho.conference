@@ -2,83 +2,143 @@
 
 {% block header %}
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+<title>PyHo 2025</title>
+<style>
+  .hero img.logo {
+    width: 350px;
+    height: 300px;
+    /* margin-bottom: 20px; */
+  }
+
+  .button {
+    background-color: #ffd343;
+    color: #111;
+    padding: 12px 25px;
+    border-radius: 5px;
+    text-decoration: none;
+    margin: 10px;
+    display: inline-block;
+    font-weight: bold;
+  }
+
+  .button:hover {
+    background-color: #ffec99;
+  }
+
+  /* Why PyHo section */
+  .about-pyho {
+    background-color: #f9fafb;
+    padding: 80px 20px;
+    /* text-align: center; */
+  }
+
+  .about-pyho h1 {
+    text-align: center;
+    font-size: 32px;
+    /* color: #111; */
+    margin-bottom: 20px;
+  }
+
+  .about-pyho p {
+    max-width: 800px;
+    margin: 0 auto;
+    font-size: 18px;
+    color: #333;
+    /* line-height: 1.7; */
+  }
+
+  /* Photo section */
+  .photo-section {
+    background-color: #fff;
+    text-align: center;
+    /* padding: 60px 20px; */
+    padding-top: 60px;
+  }
+
+  .photo-section img {
+    width: 100%;
+    /* max-width: 900px; */
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+  }
+
+  /* Sponsors section */
+  .sponsors {
+    background-color: #f3f4f6;
+    text-align: center;
+    padding: 80px 20px;
+  }
+
+  .sponsors h1 {
+    font-size: 28px;
+    margin-bottom: 30px;
+  }
+
+  .sponsor-logos {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+  }
+
+  .sponsor-logos img {
+    width: 150px;
+    height: auto;
+    filter: grayscale(100%);
+    opacity: 0.8;
+    transition: 0.3s ease;
+  }
+
+  .sponsor-logos img:hover {
+    filter: grayscale(0%);
+    opacity: 1;
+  }
+</style>
 {% endblock header %}
 
 {% block content %}
 <header class="hero">
-    <h1 style="font-style: normal; font-weight: bold; font-size: 70px; color: beige; font-family: cursive;">PyHo 2025</h1>
+    <img src="static/assets/pyho-2025-logo-removebg.png" alt="PyHo 2025 Logo" class="logo">
+    <p class="hero-date"><b>October 24–25, 2025</b></p>
     <p class="hero-paragraph">
-        the regional Python community conference from the Oxygen City.
-        <br>
-       <a href="https://uhas.edu.gh/uhas/general-overview" target="_blank" style="text-decoration: underline; color: aquamarine;">University of Health and Allied Sciences, Ho, Volta.</a>
+        A two-day developer and community conference for Pythonistas and tech enthusiasts <br>
     </p>
-    <h2 class="hero-date"><b>October 24th-25th, 2025</b></h2>
+    <p class="hero-paragraph">G.R.N.M.A Hotel, Ho</p>
     
-    <div class="hero-buttons">
+    <!-- <div class="hero-buttons">
         <a href="https://www.papercall.io/cfps/6263/submissions/new" class="button cfp-button" target="_blank">📢 Submit a Talk Proposal</a>
         <a href="https://ti.to/pythonho/pyho-2025" class="button ticket-button" target="_blank">🎟️ Get Your Ticket</a>
-    </div>
+    </div> -->
 </header>
 
-<section class="important-dates">
-    <h2><b>Important Dates to Keep</b></h2>
-    <ul>
-        <li><s><b>Call for Speakers Opens:</b> March 15, 2025</s></li>
-        <li><s><b>Registration/Ticket Sales Open:</b> March 15, 2025</s></li>
-        <li><b>Call for Speakers Closes:</b> June 15, 2025</li>
-        <li><b>Speakers Announced:</b> July 5, 2025</li>
-        <li><b>Registration/Ticket Sales Close:</b> September 20, 2025</li>
-        <li><b>Pre-Conference Social Meetup:</b> October 22, 2025</li>
-        <li><b>Conference Days:</b> October 24-25, 2025</li>
-    </ul>
+<section class="about-pyho">
+  <h1>Why PyHo?</h1>
+  <p>
+    PyHo is more than just a Python conference — it’s where technology, innovation, and community meet in the heart of Ghana’s Oxygen City.  
+    <br><br>
+    Designed for everyone from curious beginners to seasoned developers, PyHo celebrates learning, collaboration, and open-source culture. Whether you’re looking to dive deep into Python, connect with local and global experts, or explore the future of tech innovation, PyHo is your place to be.  
+    <br><br>
+    Join us, learn something new, share your story, and build meaningful connections that last beyond the conference.
+  </p>
 </section>
 
-<section class="about">
-    <p class="about-text">Join us for the largest gathering of developers of all levels—enthusiasts, beginners, intermediates, and advanced professionals in Ho, Volta Region.</p>
+<section class="photo-section">
+  <h1>2024 Highlight</h1>
+  <img src="static/images/attendees-pyho-24.jpg" alt="PyHo 2024 Collage">
 </section>
 
-<section class="sponsor">
-    <h2 style="font-weight: bold;"><b>Sponsor Us</b></h2>
-    <p>We count on your Sponsorship to make our conference a success.
-        <!--<br>Download our <a href="static/prospectus.pdf" download>Sponsorship prospectus</a> or -->
-        <br>Send us an email via <span style="color: darkgreen; font-weight: bold;">sponsorship@pythonho.com</span>.
-    </p>
+<section class="sponsors">
+  <!-- <h1>Sponsors</h1> -->
+  <div class="sponsor-logos">
+    <img src="static/images/sponsors/psf-logo.png" alt="PSF Logo">
+    <img src="static/images/sponsors/django-community.svg" alt="DSF Logo">
+    <img src="static/images/sponsors/pylady_geek-removebg-preview.png" alt="PyLadies Logo">
+    <img src="static/images/sponsors/caktus-logo.png" alt="CAK Logo">
+    <img src="static/images/sponsors/143823894.png" alt="BPD Logo">
+    <img src="static/images/sponsors/pretix.png" alt="PRE Logo">
+  </div>
 </section>
-
-<section class="code-of-conduct">
-    <h2><b>Code of Conduct</b></h2>
-    <p><a href="code-of-conduct">Read our Code of Conduct</a></p>
-</section>
-
-<!--<section class="health-safety">
-    <h2><b>Health & Safety Policy</b></h2>
-    <p><a href="health-safety">View our Health & Safety Policy</a></p>
-</section> -->
-
-<section class="socials">
-    <h2><b>Stay in touch with Us</b></h2>
-    <a href="https://x.com/PythonHo" target="_blank">
-        <i class="fab fa-x-twitter"></i>
-    </a>
-    <a href="https://www.linkedin.com/company/pythonho/?viewAsMember=true" target="_blank">
-        <i class="fab fa-linkedin"></i>
-    </a>
-    <a href="https://github.com/hopythonusergroup" target="_blank">
-        <i class="fab fa-github"></i>
-    </a>
-    <a href="https://www.youtube.com/@PythonHo" target="_blank">
-        <i class="fab fa-youtube"></i>
-    </a>
-</section>
-
-<section class="contact">
-    <p>Send us a message at <a href="mailto:ho@pythonghana.org">ho@pythonghana.org</a></p>
-</section>
-{% endblock content %}
-
-
-{% block footer %}
-<footer>
-    <p>&copy; 2025 PyHo Conference, Ho.</p>
-</footer>
-{% endblock footer %}
+{% endblock %}

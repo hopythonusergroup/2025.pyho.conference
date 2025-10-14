@@ -10,24 +10,26 @@
         <meta name="author" content="Python User Group Ho">
       
       
-        <link rel="canonical" href="https://github.com/hopythonusergroup/2025.pyho.conference.git/">
+        <link rel="canonical" href="https://github.com/hopythonusergroup/2025.pyho.conference.git/speakers/">
       
       
+        <link rel="prev" href="../schedule/">
       
-        <link rel="next" href="about/about/">
+      
+        <link rel="next" href="../sponsors/">
       
       
-      <link rel="icon" href="static/images/favicon.ico">
+      <link rel="icon" href="../static/images/favicon.ico">
       <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.6.4">
     
     
   <!-- <title>PyHo 2025 | The Regional Python Community Conference of the Python User Group Ho</title> -->
 
     
-      <link rel="stylesheet" href="assets/stylesheets/main.8608ea7d.min.css">
+      <link rel="stylesheet" href="../assets/stylesheets/main.8608ea7d.min.css">
       
         
-        <link rel="stylesheet" href="assets/stylesheets/palette.06af60db.min.css">
+        <link rel="stylesheet" href="../assets/stylesheets/palette.06af60db.min.css">
       
       
 
@@ -46,9 +48,9 @@
       
     
     
-      <link rel="stylesheet" href="stylesheets/extra.css">
+      <link rel="stylesheet" href="../stylesheets/extra.css">
     
-    <script>__md_scope=new URL(".",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    <script>__md_scope=new URL("..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
     
       
 
@@ -72,7 +74,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#pyho-2025" class="md-skip">
+        <a href="#speakers" class="md-skip">
           Skip to content
         </a>
       
@@ -83,101 +85,82 @@
     
     
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
-<title>PyHo 2025</title>
+<title>Speakers | PyHo 2025</title>
 <style>
-  .hero img.logo {
-    width: 350px;
-    height: 300px;
-    /* margin-bottom: 20px; */
-  }
+    section {
+      /* padding: 60px 20px; */
+      max-width: 1200px;
+      margin: 0 auto;
+    }
 
-  .button {
-    background-color: #ffd343;
-    color: #111;
-    padding: 12px 25px;
-    border-radius: 5px;
-    text-decoration: none;
-    margin: 10px;
-    display: inline-block;
-    font-weight: bold;
-  }
+    h1 {
+      text-align: center;
+      font-size: 2.5em;
+      margin-bottom: 50px;
+      color: #1e1e1e;
+    }
 
-  .button:hover {
-    background-color: #ffec99;
-  }
+    .speaker-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 30px;
+    }
 
-  /* Why PyHo section */
-  .about-pyho {
-    background-color: #f9fafb;
-    padding: 80px 20px;
-    /* text-align: center; */
-  }
+    .speaker-card {
+      background: #fff;
+      border-radius: 15px;
+      overflow: hidden;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.08);
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
 
-  .about-pyho h1 {
-    text-align: center;
-    font-size: 32px;
-    /* color: #111; */
-    margin-bottom: 20px;
-  }
+    .speaker-card:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+    }
 
-  .about-pyho p {
-    max-width: 800px;
-    margin: 0 auto;
-    font-size: 18px;
-    color: #333;
-    /* line-height: 1.7; */
-  }
+    .speaker-card img {
+      width: 100%;
+      height: 220px; /* uniform image size */
+      object-fit: cover;
+      display: block;
+      border-bottom: 2px solid #f3f4f6;
+    }
 
-  /* Photo section */
-  .photo-section {
-    background-color: #fff;
-    text-align: center;
-    /* padding: 60px 20px; */
-    padding-top: 60px;
-  }
+    .speaker-info {
+      padding: 15px 20px;
+      text-align: left;
+    }
 
-  .photo-section img {
-    width: 100%;
-    /* max-width: 900px; */
-    height: auto;
-    border-radius: 10px;
-    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
-  }
+    .speaker-info h3 {
+      font-size: 1.1em;
+      margin: 8px 0 4px;
+      color: #111827;
+      font-weight: 600;
+    }
 
-  /* Sponsors section */
-  .sponsors {
-    background-color: #f3f4f6;
-    text-align: center;
-    padding: 80px 20px;
-  }
+    .speaker-info span {
+      display: block;
+      font-size: 0.9em;
+      color: #6b7280;
+      margin-bottom: 6px;
+    }
 
-  .sponsors h1 {
-    font-size: 28px;
-    margin-bottom: 30px;
-  }
+    .speaker-info p {
+      font-size: 0.9em;
+      color: #4b5563;
+      margin: 0;
+    }
 
-  .sponsor-logos {
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-    gap: 40px;
-  }
-
-  .sponsor-logos img {
-    width: 150px;
-    height: auto;
-    filter: grayscale(100%);
-    opacity: 0.8;
-    transition: 0.3s ease;
-  }
-
-  .sponsor-logos img:hover {
-    filter: grayscale(0%);
-    opacity: 1;
-  }
-</style>
+    @media (max-width: 600px) {
+      h1 {
+        font-size: 2em;
+      }
+      .speaker-card img {
+        height: 180px;
+      }
+    }
+  </style>
 
     <div class="md-container" data-md-component="container">
       
@@ -192,11 +175,9 @@
         
   
   
-    
   
-  
-    <li class="md-tabs__item md-tabs__item--active">
-      <a href="." class="md-tabs__link">
+    <li class="md-tabs__item">
+      <a href=".." class="md-tabs__link">
         
   
     
@@ -215,7 +196,7 @@
     
     
       <li class="md-tabs__item">
-        <a href="about/about/" class="md-tabs__link">
+        <a href="../about/about/" class="md-tabs__link">
           
   
   About
@@ -233,7 +214,7 @@
     
     
       <li class="md-tabs__item">
-        <a href="venue/ho/" class="md-tabs__link">
+        <a href="../venue/ho/" class="md-tabs__link">
           
   
   Venue
@@ -249,7 +230,7 @@
   
   
     <li class="md-tabs__item">
-      <a href="schedule/" class="md-tabs__link">
+      <a href="../schedule/" class="md-tabs__link">
         
   
     
@@ -264,9 +245,11 @@
         
   
   
+    
   
-    <li class="md-tabs__item">
-      <a href="speakers/" class="md-tabs__link">
+  
+    <li class="md-tabs__item md-tabs__item--active">
+      <a href="./" class="md-tabs__link">
         
   
     
@@ -283,7 +266,7 @@
   
   
     <li class="md-tabs__item">
-      <a href="sponsors/" class="md-tabs__link">
+      <a href="../sponsors/" class="md-tabs__link">
         
   
     
@@ -319,9 +302,9 @@
 
 <nav class="md-nav md-nav--primary md-nav--lifted" aria-label="Navigation" data-md-level="0">
   <label class="md-nav__title" for="__drawer">
-    <a href="." title="PyHo 2025" class="md-nav__button md-logo" aria-label="PyHo 2025" data-md-component="logo">
+    <a href=".." title="PyHo 2025" class="md-nav__button md-logo" aria-label="PyHo 2025" data-md-component="logo">
       
-  <img src="static/assets/pyho-2025-logo.jpeg" alt="logo">
+  <img src="../static/assets/pyho-2025-logo.jpeg" alt="logo">
 
     </a>
     PyHo 2025
@@ -345,19 +328,10 @@
       
   
   
-    
   
   
-  
-    <li class="md-nav__item md-nav__item--active">
-      
-      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
-      
-      
-        
-      
-      
-      <a href="." class="md-nav__link md-nav__link--active">
+    <li class="md-nav__item">
+      <a href=".." class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -367,7 +341,6 @@
   
 
       </a>
-      
     </li>
   
 
@@ -418,7 +391,7 @@
   
   
     <li class="md-nav__item">
-      <a href="about/about/" class="md-nav__link">
+      <a href="../about/about/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -440,7 +413,7 @@
   
   
     <li class="md-nav__item">
-      <a href="about/coc/" class="md-nav__link">
+      <a href="../about/coc/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -462,7 +435,7 @@
   
   
     <li class="md-nav__item">
-      <a href="about/diversity/" class="md-nav__link">
+      <a href="../about/diversity/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -484,7 +457,7 @@
   
   
     <li class="md-nav__item">
-      <a href="about/grants/" class="md-nav__link">
+      <a href="../about/grants/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -506,7 +479,7 @@
   
   
     <li class="md-nav__item">
-      <a href="about/health/" class="md-nav__link">
+      <a href="../about/health/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -528,7 +501,7 @@
   
   
     <li class="md-nav__item">
-      <a href="about/volunteer/" class="md-nav__link">
+      <a href="../about/volunteer/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -550,7 +523,7 @@
   
   
     <li class="md-nav__item">
-      <a href="about/organizers/" class="md-nav__link">
+      <a href="../about/organizers/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -618,7 +591,7 @@
   
   
     <li class="md-nav__item">
-      <a href="venue/ho/" class="md-nav__link">
+      <a href="../venue/ho/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -647,7 +620,7 @@
   
   
     <li class="md-nav__item">
-      <a href="schedule/" class="md-nav__link">
+      <a href="../schedule/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -665,10 +638,19 @@
       
   
   
+    
   
   
-    <li class="md-nav__item">
-      <a href="speakers/" class="md-nav__link">
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
         
   
   <span class="md-ellipsis">
@@ -678,6 +660,7 @@
   
 
       </a>
+      
     </li>
   
 
@@ -689,7 +672,7 @@
   
   
     <li class="md-nav__item">
-      <a href="sponsors/" class="md-nav__link">
+      <a href="../sponsors/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -735,45 +718,142 @@
             <div class="md-content" data-md-component="content">
               <article class="md-content__inner md-typeset">
                 
-<header class="hero">
-    <img src="static/assets/pyho-2025-logo-removebg.png" alt="PyHo 2025 Logo" class="logo">
-    <p class="hero-date"><b>October 24–25, 2025</b></p>
-    <p class="hero-paragraph">
-        A two-day developer and community conference for Pythonistas and tech enthusiasts <br>
-    </p>
-    <p class="hero-paragraph">G.R.N.M.A Hotel, Ho</p>
-    
-    <!-- <div class="hero-buttons">
-        <a href="https://www.papercall.io/cfps/6263/submissions/new" class="button cfp-button" target="_blank">📢 Submit a Talk Proposal</a>
-        <a href="https://ti.to/pythonho/pyho-2025" class="button ticket-button" target="_blank">🎟️ Get Your Ticket</a>
-    </div> -->
-</header>
+<section>
+  <h1>Speakers</h1>
 
-<section class="about-pyho">
-  <h1>Why PyHo?</h1>
-  <p>
-    PyHo is more than just a Python conference — it’s where technology, innovation, and community meet in the heart of Ghana’s Oxygen City.  
-    <br><br>
-    Designed for everyone from curious beginners to seasoned developers, PyHo celebrates learning, collaboration, and open-source culture. Whether you’re looking to dive deep into Python, connect with local and global experts, or explore the future of tech innovation, PyHo is your place to be.  
-    <br><br>
-    Join us, learn something new, share your story, and build meaningful connections that last beyond the conference.
-  </p>
-</section>
+  <div class="speaker-grid">
+    <div class="speaker-card">
+      <img src="../static/images/speakers/LilyBadge.png" alt="Lily Edinam Botsoe" />
+      <div class="speaker-info">
+        <h3>Lily Edinam Botsoe</h3>
+        <span>PhD Candidate & Researcher</span>
+        <p>Personas and Pathways for Building Open Futures</p>
+      </div>
+    </div>
 
-<section class="photo-section">
-  <h1>2024 Highlight</h1>
-  <img src="static/images/attendees-pyho-24.jpg" alt="PyHo 2024 Collage">
-</section>
+    <div class="speaker-card">
+      <img src="../static/images/speakers/WhatsApp Image 2025-09-28 at 22.18.41.jpeg" alt="Barbara Asiamah" />
+      <div class="speaker-info">
+        <h3>Barbara Asiamah</h3>
+        <span>Co Founder, Becc Academy</span>
+        <p>Showed Up, Stepped Up</p>
+      </div>
+    </div>
 
-<section class="sponsors">
-  <!-- <h1>Sponsors</h1> -->
-  <div class="sponsor-logos">
-    <img src="static/images/sponsors/psf-logo.png" alt="PSF Logo">
-    <img src="static/images/sponsors/django-community.svg" alt="DSF Logo">
-    <img src="static/images/sponsors/pylady_geek-removebg-preview.png" alt="PyLadies Logo">
-    <img src="static/images/sponsors/caktus-logo.png" alt="CAK Logo">
-    <img src="static/images/sponsors/143823894.png" alt="BPD Logo">
-    <img src="static/images/sponsors/pretix.png" alt="PRE Logo">
+    <div class="speaker-card">
+      <img src="../static/images/speakers/gerhardt.jpg" alt="Gerhardt Datsomor" />
+      <div class="speaker-info">
+        <h3>Gerhardt Datsomor</h3>
+        <span>Machine Learning Engineer</span>
+        <p>The Trinity of Community: Code, Share and Inspire</p>
+      </div>
+    </div>
+
+    <div class="speaker-card">
+      <img src="../static/images/speakers/WhatsApp Image 2025-09-28 at 21.55.26.jpeg" alt="Issaka Sadick" />
+      <div class="speaker-info">
+        <h3>Issaka Sadick</h3>
+        <span>Founder, TicketFlow</span>
+        <p>Lift While You Climb: How Community Built My Tech Career</p>
+      </div>
+    </div>
+
+    <div class="speaker-card">
+      <img src="../static/images/speakers/20250926_144011.png" alt="Anthony Addae" />
+      <div class="speaker-info">
+        <h3>Anthony Addae</h3>
+        <span>Software Engineer</span>
+        <p>Zen and the Art of Type Hints: Duck Typing Meets Static Checking</p>
+      </div>
+    </div>
+
+    <div class="speaker-card">
+      <img src="../static/images/speakers/WhatsApp Image 2025-10-04 at 13.47.52.jpeg" alt="Zenas Kwaku Awuku" />
+      <div class="speaker-info">
+        <h3>Zenas Kwaku Awuku</h3>
+        <span>Founder, InnovoTech Lab</span>
+        <p>Demystifying Robotics & IoT with MicroPython</p>
+      </div>
+    </div>
+
+    <div class="speaker-card">
+      <img src="../static/images/speakers/IMG_0200.jpg" alt="Johanan Oppong Amoateng" />
+      <div class="speaker-info">
+        <h3>Johanan Oppong Amoateng</h3>
+        <span>Backend Developer</span>
+        <p>Simplifying Reusability: Packaging Django Apps for Distribution on PyPI</p>
+      </div>
+    </div>
+
+    <div class="speaker-card">
+      <img src="../static/images/speakers/20250929_114100.jpg" alt="Benjamin Kwadwo Bediako Nyame" />
+      <div class="speaker-info">
+        <h3>Benjamin Kwadwo Bediako Nyame</h3>
+        <span>AWS Certified Cloud Practitioner</span>
+        <p>Beyond the Laptop: How Python Opens the Door to the Cloud</p>
+      </div>
+    </div>
+
+    <div class="speaker-card">
+      <img src="../static/images/speakers/Julius-i0t4.jpg" alt="Julius Boakye" />
+      <div class="speaker-info">
+        <h3>Julius Boakye</h3>
+        <span>Python/Django Developer</span>
+        <p>Open Source Doesn’t Just Need Talks It Needs Action</p>
+      </div>
+    </div>
+
+    <div class="speaker-card">
+      <img src="../static/images/speakers/reuven-new-headshot.jpg" alt="Reuven Lerner" />
+      <div class="speaker-info">
+        <h3>Reuven Lerner</h3>
+        <span>Python Trainer</span>
+        <p>The PyArrow Revolution in Pandas</p>
+      </div>
+    </div>
+
+    <div class="speaker-card">
+      <img src="../static/images/speakers/clifford.jpg" alt="Clifford Emmanuel Akai-Nettey" />
+      <div class="speaker-info">
+        <h3>Clifford Emmanuel Akai-Nettey</h3>
+        <p>Engineering Efficiency: The Role of Data in Modern Organizations</p>
+      </div>
+    </div>
+
+    <div class="speaker-card">
+      <img src="../static/images/speakers/ohene mills.jpeg" alt="Ohene Aggrey-Mills" />
+      <div class="speaker-info">
+        <h3>Ohene Aggrey-Mills</h3>
+        <p>Integrating LMS using FastAPI and Flutter to Build an App</p>
+      </div>
+    </div>
+
+    <div class="speaker-card">
+      <img src="../static/images/speakers/eugene-sewor.jpg" alt="Eugene Sewor" />
+      <div class="speaker-info">
+        <h3>Eugene Sewor</h3>
+        <span>DevOps Engineer</span>
+        <p>Python-Powered DevOps: Automate, Deploy, and Scale with Ease</p>
+      </div>
+    </div>
+
+    <div class="speaker-card">
+      <img src="../static/images/speakers/IMG-20230913-WA0030.jpg" alt="Ezra Yendau" />
+      <div class="speaker-info">
+        <h3>Ezra Yendau</h3>
+        <span>Software Engineer</span>
+        <p>When Migrations Crawl: Advanced Techniques for Django Performance Optimization</p>
+      </div>
+    </div>
+
+    <div class="speaker-card">
+      <img src="../static/images/speakers/WhatsApp Image 2025-09-30 at 16.40.37.jpeg" alt="Theresa Seyram Agbenyegah" />
+      <div class="speaker-info">
+        <h3>Theresa Seyram Agbenyegah</h3>
+        <span>Backend Developer</span>
+        <p>From Commits to Community: Sustaining Open Source Through Collective Contribution</p>
+      </div>
+    </div>
   </div>
 </section>
 
@@ -796,10 +876,10 @@
     </div>
     
     
-    <script id="__config" type="application/json">{"base": ".", "features": ["navigation.tabs"], "search": "assets/javascripts/workers/search.f8cc74c7.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
+    <script id="__config" type="application/json">{"base": "..", "features": ["navigation.tabs"], "search": "../assets/javascripts/workers/search.f8cc74c7.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
     
     
-      <script src="assets/javascripts/bundle.f1b6f286.min.js"></script>
+      <script src="../assets/javascripts/bundle.f1b6f286.min.js"></script>
       
     
   </body>

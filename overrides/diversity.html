@@ -1,0 +1,128 @@
+{% extends "main.html" %}
+
+{% block header %}
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+<title>Diversity & Inclusion | PyHo 2025</title>
+  <style>
+    /* body {
+      font-family: "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      background-color: #fafafa;
+      color: #333;
+      margin: 0;
+      padding: 0;
+      line-height: 1.7;
+    } */
+
+    /* header {
+      background-color: #2b2d42;
+      color: #fff;
+      text-align: center;
+      padding: 2rem 1rem;
+    } */
+
+    header h1 {
+      margin: 0;
+      /* font-size: 2.2rem; */
+      /* letter-spacing: 1px; */
+    }
+
+    .container {
+      max-width: 900px;
+      /* margin: 3rem auto; */
+      /* padding: 0 1rem; */
+    }
+
+    section {
+      background: #fff;
+      border-radius: 8px;
+      box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+      padding: 2rem;
+      margin-bottom: 2rem;
+    }
+
+    h2 {
+      color: #2b2d42;
+      border-left: 4px solid #ef233c;
+      padding-left: 0.5rem;
+      font-size: 1.6rem;
+    }
+
+    /* p {
+      margin-bottom: 1rem;
+      font-size: 1rem;
+    } */
+
+    .psf-link {
+      background: #edf2f4;
+      padding: 1.2rem;
+      border-left: 4px solid #ef233c;
+      border-radius: 4px;
+      font-style: italic;
+    }
+
+    .highlight {
+      background: #f9f9f9;
+      padding: 1rem;
+      border-left: 4px solid #2b2d42;
+      margin-top: 1.5rem;
+      border-radius: 6px;
+    }
+
+    @media (max-width: 768px) {
+      header h1 {
+        font-size: 1.8rem;
+      }
+
+      .container {
+        margin: 2rem auto;
+      }
+    }
+  </style>
+{% endblock header %}
+
+{% block content %}
+  <header>
+    <h1>Diversity & Inclusion</h1>
+  </header>
+
+  <div class="container">
+
+    <section>
+      <h2>Our Commitment</h2>
+      <p>
+        The Python Software Foundation and the global Python community welcome and encourage participation by everyone. 
+        Our community is based on mutual respect, tolerance, and encouragement, and we are working to help each other live up to these principles. 
+      </p>
+      <p>
+        We want our community to be more diverse: whoever you are, and whatever your background, we welcome you.
+      </p>
+    </section>
+
+    <section>
+      <h2>Our Guiding Statement</h2>
+      <div class="psf-link">
+        <p>
+          We adhere strictly to the official 
+          <a href="https://www.python.org/psf/diversity/" target="_blank" style="color:#ef233c; text-decoration:none; font-weight:bold;">
+            Diversity Statement from the Python Software Foundation (PSF)
+          </a>.
+        </p>
+      </div>
+    </section>
+
+    <section>
+      <h2>What This Means for PyHo</h2>
+      <div class="highlight">
+        <p>
+          At PyHo, we aim to foster an inclusive and respectful conference environment -
+          one that promotes participation from individuals of all backgrounds, perspectives, and experiences.
+        </p>
+        <p>
+          Diversity and inclusion are not just values we talk about - they are the foundation of our community culture, 
+          our events, and how we grow together as developers and innovators.
+        </p>
+      </div>
+    </section>
+
+  </div>
+{% endblock %}
