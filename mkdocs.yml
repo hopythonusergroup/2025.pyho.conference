@@ -5,6 +5,19 @@ repo_url: https://github.com/hopythonusergroup/2025.pyho.conference.git
 repo_name: hopythonusergroup/2025.pyho.conference
 nav:
   - PyHo 2025: index.md
+  - About:
+    - about/about.md
+    - about/coc.md
+    - about/diversity.md
+    - about/grants.md
+    - about/health.md
+    - about/volunteer.md
+    - about/organizers.md
+  - Venue:
+    - venue/ho.md
+  - Schedule: schedule.md
+  - Speakers: speakers.md
+  - Sponsors: sponsors.md
 theme:
   logo: static/assets/pyho-2025-logo.jpeg
   favicon: static/images/favicon.ico

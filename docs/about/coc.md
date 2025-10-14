@@ -1,6 +1,7 @@
 ---
 template: coc.html
 hide:
-  - navigation
   - toc
 ---
+
+# Code of Conduct
