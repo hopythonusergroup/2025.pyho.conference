@@ -1,8 +1,223 @@
 ---
-template: speakers.html
+# template: speakers.html
 hide:
   - toc
   - navigation
 ---
 
+<title>Speakers | PyHo 2025</title>
+
+<style>
+    section {
+      /* padding: 60px 20px; */
+      max-width: 1200px;
+      margin: 0 auto;
+    }
+
+    h1 {
+      text-align: center;
+      font-size: 2.5em;
+      margin-bottom: 50px;
+      color: #1e1e1e;
+    }
+
+    .speaker-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 30px;
+    }
+
+    .speaker-card {
+      background: #fff;
+      border-radius: 15px;
+      overflow: hidden;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.08);
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+
+    .speaker-card:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+    }
+
+    .speaker-card img {
+      width: 100%;
+      height: 220px; /* uniform image size */
+      object-fit: cover;
+      display: block;
+      border-bottom: 2px solid #f3f4f6;
+    }
+
+    .speaker-info {
+      padding: 15px 20px;
+      text-align: left;
+    }
+
+    .speaker-info h3 {
+      font-size: 1.1em;
+      margin: 8px 0 4px;
+      color: #111827;
+      font-weight: 600;
+    }
+
+    .speaker-info span {
+      display: block;
+      font-size: 0.9em;
+      color: #6b7280;
+      margin-bottom: 6px;
+    }
+
+    .speaker-info p {
+      font-size: 0.9em;
+      color: #4b5563;
+      margin: 0;
+    }
+
+    @media (max-width: 600px) {
+      h1 {
+        font-size: 2em;
+      }
+      .speaker-card img {
+        height: 180px;
+      }
+    }
+  </style>
+
 # Speakers
+
+<section>
+  <div class="speaker-grid">
+    <div class="speaker-card">
+      <img src="../static/images/speakers/LilyBadge.png" alt="Lily Edinam Botsoe" />
+      <div class="speaker-info">
+        <h3>Lily Edinam Botsoe</h3>
+        <span>PhD Candidate & Researcher</span>
+        <p>Personas and Pathways for Building Open Futures</p>
+      </div>
+    </div>
+
+    <div class="speaker-card">
+      <img src="../static/images/speakers/WhatsApp Image 2025-09-28 at 22.18.41.jpeg" alt="Barbara Asiamah" />
+      <div class="speaker-info">
+        <h3>Barbara Asiamah</h3>
+        <span>Co Founder, Becc Academy</span>
+        <p>Showed Up, Stepped Up</p>
+      </div>
+    </div>
+
+    <div class="speaker-card">
+      <img src="../static/images/speakers/gerhardt.jpg" alt="Gerhardt Datsomor" />
+      <div class="speaker-info">
+        <h3>Gerhardt Datsomor</h3>
+        <span>Machine Learning Engineer</span>
+        <p>The Trinity of Community: Code, Share and Inspire</p>
+      </div>
+    </div>
+
+    <div class="speaker-card">
+      <img src="../static/images/speakers/WhatsApp Image 2025-09-28 at 21.55.26.jpeg" alt="Issaka Sadick" />
+      <div class="speaker-info">
+        <h3>Issaka Sadick</h3>
+        <span>Founder, TicketFlow</span>
+        <p>Lift While You Climb: How Community Built My Tech Career</p>
+      </div>
+    </div>
+
+    <div class="speaker-card">
+      <img src="../static/images/speakers/20250926_144011.png" alt="Anthony Addae" />
+      <div class="speaker-info">
+        <h3>Anthony Addae</h3>
+        <span>Software Engineer</span>
+        <p>Zen and the Art of Type Hints: Duck Typing Meets Static Checking</p>
+      </div>
+    </div>
+
+    <div class="speaker-card">
+      <img src="../static/images/speakers/WhatsApp Image 2025-10-04 at 13.47.52.jpeg" alt="Zenas Kwaku Awuku" />
+      <div class="speaker-info">
+        <h3>Zenas Kwaku Awuku</h3>
+        <span>Founder, InnovoTech Lab</span>
+        <p>Demystifying Robotics & IoT with MicroPython</p>
+      </div>
+    </div>
+
+    <div class="speaker-card">
+      <img src="../static/images/speakers/IMG_0200.jpg" alt="Johanan Oppong Amoateng" />
+      <div class="speaker-info">
+        <h3>Johanan Oppong Amoateng</h3>
+        <span>Backend Developer</span>
+        <p>Simplifying Reusability: Packaging Django Apps for Distribution on PyPI</p>
+      </div>
+    </div>
+
+    <div class="speaker-card">
+      <img src="../static/images/speakers/20250929_114100.jpg" alt="Benjamin Kwadwo Bediako Nyame" />
+      <div class="speaker-info">
+        <h3>Benjamin Kwadwo Bediako Nyame</h3>
+        <span>AWS Certified Cloud Practitioner</span>
+        <p>Beyond the Laptop: How Python Opens the Door to the Cloud</p>
+      </div>
+    </div>
+
+    <div class="speaker-card">
+      <img src="../static/images/speakers/Julius-i0t4.jpg" alt="Julius Boakye" />
+      <div class="speaker-info">
+        <h3>Julius Boakye</h3>
+        <span>Python/Django Developer</span>
+        <p>Open Source Doesn’t Just Need Talks It Needs Action</p>
+      </div>
+    </div>
+
+    <div class="speaker-card">
+      <img src="../static/images/speakers/reuven-new-headshot.jpg" alt="Reuven Lerner" />
+      <div class="speaker-info">
+        <h3>Reuven Lerner</h3>
+        <span>Python Trainer</span>
+        <p>The PyArrow Revolution in Pandas</p>
+      </div>
+    </div>
+
+    <div class="speaker-card">
+      <img src="../static/images/speakers/clifford.jpg" alt="Clifford Emmanuel Akai-Nettey" />
+      <div class="speaker-info">
+        <h3>Clifford Emmanuel Akai-Nettey</h3>
+        <p>Engineering Efficiency: The Role of Data in Modern Organizations</p>
+      </div>
+    </div>
+
+    <div class="speaker-card">
+      <img src="../static/images/speakers/ohene mills.jpeg" alt="Ohene Aggrey-Mills" />
+      <div class="speaker-info">
+        <h3>Ohene Aggrey-Mills</h3>
+        <p>Integrating LLM using FastAPI (Python) and Flutter to Build an App</p>
+      </div>
+    </div>
+
+    <div class="speaker-card">
+      <img src="../static/images/speakers/eugene-sewor.jpg" alt="Eugene Sewor" />
+      <div class="speaker-info">
+        <h3>Eugene Sewor</h3>
+        <span>DevOps Engineer</span>
+        <p>Python-Powered DevOps: Automate, Deploy, and Scale with Ease</p>
+      </div>
+    </div>
+
+    <div class="speaker-card">
+      <img src="../static/images/speakers/IMG-20230913-WA0030.jpg" alt="Ezra Yendau" />
+      <div class="speaker-info">
+        <h3>Ezra Yendau</h3>
+        <span>Software Engineer</span>
+        <p>When Migrations Crawl: Advanced Techniques for Django Performance Optimization</p>
+      </div>
+    </div>
+
+    <div class="speaker-card">
+      <img src="../static/images/speakers/WhatsApp Image 2025-09-30 at 16.40.37.jpeg" alt="Theresa Seyram Agbenyegah" />
+      <div class="speaker-info">
+        <h3>Theresa Seyram Agbenyegah</h3>
+        <span>Backend Developer</span>
+        <p>From Commits to Community: Sustaining Open Source Through Collective Contribution</p>
+      </div>
+    </div>
+  </div>
+</section>

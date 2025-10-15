@@ -1,8 +1,264 @@
 ---
-template: schedule.html
+# template: schedule.html
 hide:
   - toc
   - navigation
 ---
 
-# Schedule
+<title>Schedule | PyHo 2025</title>
+
+<style>
+    .pyho-schedule {
+        font-family: system-ui, sans-serif;
+        line-height: 1.6;
+        color: #222;
+        /* padding: 1rem; */
+    }
+
+    .pyho-schedule h1,
+    .pyho-schedule h2 {
+        /* color: #000000; */
+    }
+
+    .pyho-schedule table {
+        width: 100%;
+        border-collapse: collapse;
+        margin-bottom: 2rem;
+        font-size: 0.95rem;
+    }
+
+    .pyho-schedule th,
+    .pyho-schedule td {
+        border: 1px solid #ccc;
+        padding: 0.6rem;
+        text-align: left;
+    }
+
+    .pyho-schedule th {
+        background-color: #f3f4f6;
+        color: #111827;
+    }
+
+    .pyho-schedule tr:nth-child(even) {
+        background-color: #f9fafb;
+    }
+
+    .closing-section ul {
+        list-style: disc;
+        margin-left: 1.5rem;
+    }
+</style>
+
+# Conference Schedule
+
+<section class="pyho-schedule">
+    <h2>Day 1 – Friday, October 24</h2>
+    <table class="schedule-table">
+        <thead>
+            <tr>
+                <th>🕒 Time</th>
+                <th>Session</th>
+                <th>Speaker</th>
+                <th>Title</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>9:00 AM – 9:30 AM</td>
+                <td>Registration & Opening Remarks</td>
+                <td>—</td>
+                <td>Welcome and Opening remarks</td>
+            </tr>
+            <tr>
+                <td>9:30 AM – 10:15 AM</td>
+                <td><strong>Opening Keynote</strong></td>
+                <td><strong>Lily Edinam Botsoe</strong></td>
+                <td><em>TBA</em></td>
+            </tr>
+            <tr>
+                <td>10:15 AM – 10:45 AM</td>
+                <td>Breakfast</td>
+                <td>—</td>
+                <td>Breakfast</td>
+            </tr>
+            <tr>
+                <td>10:45 AM – 11:10 AM</td>
+                <td>Talk</td>
+                <td>Anthony Addae</td>
+                <td>Zen and the Art of Type Hints: Duck Typing Meets Static Checking</td>
+            </tr>
+            <tr>
+                <td>11:10 AM – 11:35 AM</td>
+                <td>Talk</td>
+                <td>Johanan Oppong Amoateng</td>
+                <td>Simplifying Reusability: Packaging Django Apps for Distribution on PyPI</td>
+            </tr>
+            <tr>
+                <td>11:35 AM – 12:00 PM</td>
+                <td>Talk</td>
+                <td>Benjamin Kwadwo Bediako Nyame</td>
+                <td>Beyond the Laptop: How Python Opens the Door to the Cloud</td>
+            </tr>
+            <tr>
+                <td>12:10 PM – 1:10 PM</td>
+                <td>Lunch Break</td>
+                <td>—</td>
+                <td>Break and networking</td>
+            </tr>
+            <tr>
+                <td>1:10 PM – 1:55 PM</td>
+                <td><strong>Workshop</strong></td>
+                <td>Anthony Addae</td>
+                <td>Plugging AI into Your App: Practical Patterns with LLMs and Vector Databases</td>
+            </tr>
+            <tr>
+                <td>1:55 PM – 2:20 PM</td>
+                <td>Talk</td>
+                <td>Julius Boakye</td>
+                <td>Open Source Doesn’t Just Need Talks It Needs Action</td>
+            </tr>
+            <tr>
+                <td>2:20 PM – 2:45 PM</td>
+                <td>Talk</td>
+                <td>Reuven Lerner</td>
+                <td>The PyArrow Revolution in Pandas</td>
+            </tr>
+            <tr>
+                <td>2:45 PM – 3:10 PM</td>
+                <td>Talk</td>
+                <td>Ignatus Anim</td>
+                <td>Python for DevOps</td>
+            </tr>
+            <tr>
+                <td>3:10 PM – 3:35 PM</td>
+                <td>Talk</td>
+                <td>Theresa Seyram Agbenyegah</td>
+                <td>From Commits to Community: Sustaining Open Source Through Collective Contribution</td>
+            </tr>
+            <tr>
+                <td>3:35 PM – 4:15 PM</td>
+                <td><strong>Closing Keynote</strong></td>
+                <td><strong>Gerhardt Datsomor</strong></td>
+                <td><em>TBA</em></td>
+            </tr>
+            <tr>
+                <td>4:15 PM – 4:40 PM</td>
+                <td>Lightning Talks</td>
+                <td>—</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>04:40 PM – 04:50 PM</td>
+                <td>Closing Remarks</td>
+                <td>—</td>
+                <td>Event Day One wrap</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <hr>
+    <h2>Day 2 – Saturday, October 25</h2>
+    <table class="schedule-table">
+        <thead>
+            <tr>
+                <th>🕒 Time</th>
+                <th>Session</th>
+                <th>Speaker</th>
+                <th>Title</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>9:00 AM – 9:30 AM</td>
+                <td>Registration & Opening Remarks</td>
+                <td>—</td>
+                <td>Welcome and overview for Day 2</td>
+            </tr>
+            <tr>
+                <td>9:30 AM – 10:15 AM</td>
+                <td><strong>Opening Keynote</strong></td>
+                <td><strong>Barbara Asiamah</strong></td>
+                <td><em>TBA</em></td>
+            </tr>
+            <tr>
+                <td>10:15 AM – 10:45 AM</td>
+                <td>Breakfast</td>
+                <td>—</td>
+                <td>Breakfast</td>
+            </tr>
+            <tr>
+                <td>10:45 AM – 11:10 AM</td>
+                <td>Talk</td>
+                <td>Ohene Aggrey-Mills</td>
+                <td>Integrating LLM using FastAPI (Python) and Flutter to Build an App</td>
+            </tr>
+            <tr>
+                <td>11:10 AM – 11:35 AM</td>
+                <td>Talk</td>
+                <td>Eugene Sewor</td>
+                <td>Python-Powered DevOps: Automate, Deploy, and Scale with Ease</td>
+            </tr>
+            <tr>
+                <td>11:35 AM – 12:00 PM</td>
+                <td>Talk</td>
+                <td>Elvis Kwabena Asare Nkrumah</td>
+                <td>Statistical Inference in Python: Beyond the Basics</td>
+            </tr>
+            <tr>
+                <td>12:10 PM – 1:10 PM</td>
+                <td>Lunch Break</td>
+                <td>—</td>
+                <td>Break and networking</td>
+            </tr>
+            <tr>
+                <td>1:10 PM – 2:00 PM</td>
+                <td><strong>Workshop</strong></td>
+                <td>Jesse Kayenpopo Han-Naa Murah</td>
+                <td>Shipping ML: A Workshop on Productionizing Machine Learning</td>
+            </tr>
+            <tr>
+                <td>2:00 PM – 3:00 PM</td>
+                <td><strong>Extended Workshop</strong></td>
+                <td>Zenas Kwaku Awuku</td>
+                <td>Demystifying Robotics & IoT with MicroPython</td>
+            </tr>
+            <tr>
+                <td>3:00 PM – 3:25 PM</td>
+                <td>Talk</td>
+                <td>Ezra Yendau</td>
+                <td>When Migrations Crawl: Advanced Techniques for Django Performance Optimization</td>
+            </tr>
+            <tr>
+                <td>3:25 PM – 3:50 PM</td>
+                <td>Talk</td>
+                <td>Johanan Oppong Amoateng</td>
+                <td>Unlocking the Power of Type Hinting in Python: A Simple Way to Write Better Code</td>
+            </tr>
+            <tr>
+                <td>3:50 PM – 4:15 PM</td>
+                <td>Talk</td>
+                <td>Lawrence Danso</td>
+                <td>Why We Need to Prepare for the Upcoming AI Surge</td>
+            </tr>
+            <tr>
+                <td>4:15 PM – 4:40 PM</td>
+                <td>Talk</td>
+                <td>Clifford Emmanuel Akai-Nettey</td>
+                <td>Engineering Efficiency: The Role of Data in Modern Organizations</td>
+            </tr>
+            <tr>
+                <td>4:40 PM - 5:25 PM</td>
+                <td><strong>Closing Keynote</strong></td>
+                <td><strong>Issaka Sadick</strong></td>
+                <td><em>TBA</em></td>
+                
+            </tr>
+            <tr>
+                <td>5:25 PM – 5:35 PM</td>
+                <td>Closing Remarks</td>
+                <td>—</td>
+                <td>Event Day Two wrap</td>
+            </tr>
+        </tbody>
+    </table>
+</section>

@@ -18,6 +18,9 @@ nav:
   - Schedule: schedule.md
   - Speakers: speakers.md
   - Sponsors: sponsors.md
+  - Hackathon: hackathon.md
+  - News:
+     - blog/index.md
 theme:
   logo: static/assets/pyho-2025-logo.jpeg
   favicon: static/images/favicon.ico
@@ -30,3 +33,5 @@ theme:
     - navigation.tabs
 extra_css:
   - stylesheets/extra.css
+plugins:
+  - blog
