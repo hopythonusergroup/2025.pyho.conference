@@ -142,7 +142,7 @@ hide:
   </div> -->
 
   <!-- Community Sponsors -->
-  <!-- <div class="sponsor-category community">
+  <div class="sponsor-category community">
     <h3>Community</h3>
     <div class="sponsor-grid">
       <div class="sponsor-card">
@@ -165,5 +165,5 @@ hide:
         <img src="../static/images/sponsors/pretix.png" alt="Pre Logo">
       </div>
     </div>
-  </div> -->
+  </div>
 </section>

@@ -132,7 +132,7 @@ hide:
   <img src="static/images/attendees-pyho-24.jpg" alt="PyHo 2024 Collage">
 </section>
 
-<!-- <section class="sponsors">
+<section class="sponsors">
   <div class="sponsor-logos">
     <img src="static/images/sponsors/psf-logo.png" alt="PSF Logo">
     <img src="static/images/sponsors/django-community.svg" alt="DSF Logo">
@@ -141,4 +141,4 @@ hide:
     <img src="static/images/sponsors/143823894.png" alt="BPD Logo">
     <img src="static/images/sponsors/pretix.png" alt="PRE Logo">
   </div>
-</section> -->
+</section>
